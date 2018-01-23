@@ -1,0 +1,26 @@
+/* 博客标题和副标题 */
+#blogTitle {
+    overflow: hidden;
+    height: auto;
+    text-align: center;
+}
+
+#blogTitle h1 {
+    font-size: 35px;
+    width: 100%;
+    margin-left: 0;
+}
+
+/*博客导航栏 */
+#navList {
+    float: left;
+}
+
+#navList li {
+    border: none;
+    font-size: 16px;
+}
+
+.blogStats {
+    display: none;
+}

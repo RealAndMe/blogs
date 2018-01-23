@@ -1,0 +1,62 @@
+/* 个性签名 */
+#MySignature {
+    box-shadow: 8px 1px 10px #989898;
+    padding: 10px;
+    text-shadow: 1px 1px 1px #FFF;
+    font-size: 17px;
+    border-left: solid 5px #55895B;
+    background: #F3F3F3;
+    border-radius: 10px 10px 50% 10px;
+    line-height: 2.4;
+    margin: 40px 0;
+}
+
+#MySignature a {
+    text-decoration: none;
+    color: #4183c4;
+    font-weight: bold;
+}
+
+#MySignature a:hover {
+    text-decoration: underline;
+    color: #f60;
+}
+
+#MySignature span {
+    color: #f60;
+}
+
+/* 标题title样式 */
+#topics .postTitle {
+    font-size: 25px;
+    padding: 0 40px;
+    border: none;
+    box-sizing: border-box;
+}
+
+#cb_post_title_url {
+    border: 1px solid #55895B;
+    border-left-width: 5px;
+    border-radius: 10px;
+    border-right-width: 5px;
+    background-position: left center;
+    padding: 15px 50px;
+    width: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+/*设置背景色和字体大小*/
+body {
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+#blogTitle h2 {
+    /*博客的标题h2*/
+    margin-left: 0;
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+}
