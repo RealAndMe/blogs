@@ -52,11 +52,40 @@ body {
     box-sizing: border-box;
 }
 
-#blogTitle h2 {
-    /*博客的标题h2*/
-    margin-left: 0;
-    width: 100%;
-    font-size: 20px;
-    font-weight: bold;
-    color: #000;
+/*mainContent主体内容容器*/
+#main {
+    display: flex;
+    width: 95%;
+}
+
+#mainContent .forFlow {
+    margin: 0 0 0 310px;
+}
+
+#mainContent {
+    margin: 0 0 0 -310px;
+}
+
+#post_detail {
+    overflow: hidden;
+}
+
+/* 主体内容样式 */
+.postBody {
+    padding: 20px 40px;
+}
+
+#cnblogs_post_body {
+    font-size: 15px;
+}
+
+#cnblogs_post_body h2 {
+    /*标题h2*/
+    border-left: 5px solid #55895B;
+    padding-left: 20px;
+    line-height: 2;
+}
+
+#topics .postDesc {
+    display: none;
 }
