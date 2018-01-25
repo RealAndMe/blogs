@@ -98,13 +98,18 @@ pre {
     color: #c7254e;
     border: none !important;
     font-size: 1em !important;
-    background-color: transparent !important;
+    background-color: #f9f2f4 !important;
     font-family: sans-serif !important;
 }
 
 /*引言样式*/
 blockquote {
     border-left: 5px solid #55895B;
+}
+
+blockquote strong {
+    color: red;
+    font-size: 18px;
 }
 
 /*博客顶部容器包括标题、副标题、导航栏*/
@@ -323,9 +328,25 @@ body {
 }
 
 #cnblogs_post_body h2 {
+    /*标题h2*/
     border-left: 5px solid #55895B;
-    padding-left: 20px;
+    padding: 10px 20px;
     line-height: 2;
+    background: #d6dbdf8a;
+    margin: 30px 0;
+    font-size: 25px;
+}
+
+#cnblogs_post_body h3 {
+    margin: 20px 0;
+    padding: 10px 20px;
+    border-left: 5px solid #55895B;
+    font-size: 20px;
+}
+
+#cnblogs_post_body h4{
+    font-size: 18px;
+    margin: 20px 0;
 }
 
 #topics .postDesc {
@@ -392,6 +413,11 @@ body {
 }
 
 #div_digg {
+    display: none;
+}
+
+/*隐藏广告*/
+#ad_t2, #cnblogs_c1, #under_post_news, #cnblogs_c2, #under_post_kb {
     display: none;
 }
 

@@ -32,3 +32,8 @@
 #div_digg {
     display: none;
 }
+
+/*隐藏广告*/
+#ad_t2, #cnblogs_c1, #under_post_news, #cnblogs_c2, #under_post_kb {
+    display: none;
+}
